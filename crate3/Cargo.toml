@@ -1,0 +1,10 @@
+[package]
+name = "crate3"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+
+[dependencies]
+#crate1 = "^0.1.0"
+#crate2 = "^0.1.0"
+crate1 = {"path" = "../crate1"}
+crate2 = {"path" = "../crate2"}
